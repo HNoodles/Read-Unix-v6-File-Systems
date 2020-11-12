@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a56681c0-b9df-4334-88a4-f7e7b0c9b109" name="CSE-Lab-Server">
+        <fileTransfer rootFolder="/home/2020cs110/17302010002" accessType="SFTP" host="10.176.122.31" port="22" sshConfigId="1abb378a-1ff8-4c4d-8d6a-4cf9c95dbe37" sshConfig="17302010002@10.176.122.31:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
