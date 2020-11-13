@@ -1,5 +1,5 @@
 #ifndef _INO_H
-#define  _INO_H
+#define _INO_H
 
 #include <stdint.h>
 
