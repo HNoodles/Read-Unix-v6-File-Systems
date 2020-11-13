@@ -12,8 +12,7 @@
 int file_getblock(struct unixfilesystem *fs, int inumber, int blockNum, void *buf) {
     // fetch inode
     struct inode ino;
-    int result = inode_iget(fs, inumber, &ino);
-    if (result < 0) {
+    if (inode_iget(fs, inumber, &ino) < 0) {
         return -1;
     }
 
